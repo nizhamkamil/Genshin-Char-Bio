@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ayaka_banner"
+                ></ImageView>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tv_char_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="@string/character_name"
+            android:textSize="32sp" />
+        <TextView
+            android:id="@+id/tv_char_det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:text="@string/data_detail_received"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/affiliation" />
+
+                <TextView
+                    android:id="@+id/tv_affiliation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/data_affiliation_received" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/base_hp" />
+
+                <TextView
+                    android:id="@+id/tv_baseHP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/HP_Stat" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/base_atk" />
+
+                <TextView
+                    android:id="@+id/tv_baseATK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/ATK_Stat" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/base_def" />
+
+                <TextView
+                    android:id="@+id/tv_baseDEF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/DEF_Stat" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/vision" />
+
+                <TextView
+                    android:id="@+id/tv_Element"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/vision_stat" />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/character_story"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tv_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_story"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:justificationMode="inter_word"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</ScrollView>

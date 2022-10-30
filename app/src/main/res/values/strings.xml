@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MyGenshinProject</string>
+    <string name="character_name">Nama Character</string>
+    <string name="data_detail_received">Data Detail Diterima</string>
+    <string name="data_element_received">Data Element Diterima</string>
+    <string name="data_birthday_received">Data Birtday Diterima</string>
+    <string name="data_basehp_received">Data BaseHP Diterima</string>
+    <string name="data_baseatk_received">Data BaseATK Diterima</string>
+    <string name="data_def_received">Data Def Diterima</string>
+    <string name="data_affiliation_received">Data Affiliation Diterima</string>
+    <string name="affiliation">Affiliation :</string>
+    <string name="base_hp">Base HP :</string>
+    <string name="HP_Stat">14029</string>
+    <string name="base_atk">Base ATK :</string>
+    <string name="ATK_Stat">250</string>
+    <string name="base_def">Base DEF :</string>
+    <string name="DEF_Stat">750</string>
+    <string name="vision">Vision :</string>
+    <string name="vision_stat">Cryo</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="email">Nizhamkamilhia@gmail.com</string>
+    <string name="nama">Nizham Kamil Hia</string>
+    <string name="character_story">Character Story</string>
+    <string name="placeholder_story">Placeholder Story</string>
+</resources>
